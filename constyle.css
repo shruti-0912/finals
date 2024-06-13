@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    text-align: center;
+    background-color: #ffb6c1; /* Pastel Pink */
+    position: relative;
+    padding: 20px 0;
+}
+
+.header-gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #ffb6c1, #add8e6); /* Gradient from Pastel Pink to Light Blue */
+    opacity: 0.4;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #ffb6c1; /* Pastel Pink */
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover:not(.active) {
+    background-color: #ff69b4; /* Pink */
+
+    .active{
+        background-color: #add8e6;
+    }
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: white;
+    font-size: 40px;
+    font-style: italic;
+}
+
+#contact {
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-list li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-list img {
+    border-radius: 10%;
+    transition: transform 0.2s;
+}
+
+.contact-list img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #ffb6c1; /* Pastel Pink */
+    color: black;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}

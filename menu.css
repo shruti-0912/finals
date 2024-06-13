@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('your-background-image.jpg');
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    background-color: #ffb6c1; /* Pastel Pink */
+    position: relative;
+    padding: 20px 0;
+}
+
+.header-gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #ffb6c1, #add8e6); /* Gradient from Pastel Pink to Light Blue */
+    opacity: 0.4; /* Adjust the opacity as needed */
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #ffb6c1; /* Pastel Pink */
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover:not(.active) {
+    background-color: #ff69b4; /* Pink */
+
+    .active{
+        background-color: #add8e6;
+    }
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: white;
+    font-size: 40px;
+    font-style: italic;
+}
+
+
+
+.menu {
+    padding: 20px;
+}
+
+.menu h2 {
+    text-align: center;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.menu-item {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.menu-item h3 {
+    margin-top: 10px;
+    color: #333;
+}
+
+.menu-item p {
+    color: #666;
+}
+
+.menu-item p:first-child {
+    margin-top: 5px;
+}
+
+.menu-item p:last-child {
+    margin-bottom: 5px;
+}
+
+
+footer {
+    background-color: #ffb6c1; /* Pastel Pink */
+    color: black;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
